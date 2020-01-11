@@ -7,8 +7,8 @@ table.main {
 	display: inline-block;
 	margin-top: 5px;
 	margin-bottom: 25px;
-	height: 267;
-	width: 208;
+	height: 267px;
+	width: 208px;
 }
 
 #swccMap {
@@ -54,6 +54,8 @@ body {
 
 /* the second of the three main DIVs */
 #divContent {
+	padding: 5px;
+	margin: 5px 5px 5px 5px;
 }
 
 /* the third of the three main DIVs */
@@ -65,7 +67,6 @@ body {
 	margin: 5px 5px 5px 5px;
 }
 
-/* the 'home' page loads devContent with the following two DIVs */
 #divWelcome {
 	border-style: solid;
 	border-color: blue;
@@ -82,7 +83,23 @@ body {
 	margin: 5px 5px 25px 5px;
 }
 
-/* these two styles are used for positioning within devWelcome */
+#divSchedule {
+	border-style: solid;
+	border-color: green;
+	border-width: 1px;
+	padding: 5px;
+	margin: 5px;
+}
+
+#divChallenge {
+	border-style: solid;
+	border-color: green;
+	border-width: 1px;
+	padding: 5px;
+	margin: 5px;
+}
+
+/* these two styles are used for positioning within divWelcome */
 .welcomeLeft {
 	padding: 2px;
 	width: 100%;
@@ -120,8 +137,24 @@ body {
 .colSoon {
 	text-align: left;
 	vertical-align: top;
-	padding: 20px;
+	padding: 5px;
 	width: 50%;
+}
+
+.colSchedule {
+	text-align: left;
+	vertical-align: top;
+	padding: 5px;
+	margin: 5px;
+	min-width: 300px;
+}
+
+.colChallenge {
+	text-align: left;
+	vertical-align: top;
+	padding: 5px;
+	margin: 5px;
+	min-width: 700px;
 }
 
 .sectionHeading {
@@ -131,9 +164,10 @@ body {
 	background-color: #CCFFCC;
 	/*background-color: #FFCCFF;*/
 	text-align: center;
-	min-width: 790px;
+	/*width: 500px;*/
 	margin-top: -25px;
 	margin-bottom: 2px;
+	margin-left: 12px;
 }
 
 /* style used on all links */

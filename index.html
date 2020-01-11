@@ -1,69 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta http-equiv=Content-Type content="text/html" charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/swcc.css">
-<script type='text/javascript' language='javascript' src='js/jquery-3.4.1.min.js'>
-//<!-- empty -->
-</script>
-
-<script type='text/javascript' language='javascript'>
-	function loadMenu() {
-		$("#divMenu").load("menu.html", true);
-	}
-	function loadContent() {
-		$("#divContent").load("home.html", true);
-	}
-	function loadFooter() {
-		$("#divFooter").load("footer.html", true);
-	}
-	function loadPage() {
-		loadMenu();
-		loadContent();
-		loadFooter();
-	}
-</script>
-	
-<title>Southwest Chess Club Home Page</title>
+    <meta http-equiv=Content-Type content="text/html" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/swcc.css">
+    <title>Southwest Chess Club Home Page</title>
 </head>
 
 <body id='body-container' link="#0066FF" vlink="#6633CC">
 <div id='main-container'>
-<br/><!-- this is here because the section header has a negative margin -->
-<table class="main">
-	<tr>
-	<td class='colLeft'>
-	<!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + 
-		MENU/LINKS CONTENT (on the left)
-	+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
-    <img id="swccLogo" src="images/swcc-logo.jpg" onclick="javascript:loadPage();">
-    <div id='divMenu'>
-        <!-- leave comment here -->
-    </div> <!-- ends menu -->
-  </td>
+    <br/><!-- this is here because the section header has a negative margin -->
+    <table class="main">
+        <tr>
+            <td class='colLeft'>
+                <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+                    MENU/LINKS CONTENT (on the left)
+                + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+                <img id="swccLogo" src="images/swcc-logo.jpg" onclick="javascript:window.location='index.html';">
+                <div id='divMenu'>
+                    <!-- leave comment here -->
+                    <h4>The Club</h4>
+                    <a href="#" onclick="javascript:window.location='index.html';;">Home</a><br/>
+                    <a class="swccLink" target='_blank' href="http://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=5635+South+New+Berlin+Road,+Hales+Corners,+Wisconsin&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=5635+S+New+Berlin+Rd,+Hales+Corners,+Milwaukee,+Wisconsin+53130&amp;amp;z=16">Location (Map)</a> <img class="external" src="images/external-link.png" alt=""/><br/>
 
-  <td class='colRight'>
-	<!-- <br/> -->
-    <div id='divContent'>
-        <!-- leave comment here -->
-    </div> <!-- ends divContent -->
-  </td>
-  </tr>
-  <tr><td colspan=2>
-	<!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + 
-		FOOTER CONTENT
-	+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
-    <div id='divFooter'>
-        <!-- leave comment here -->
-    </div>
-    <!-- ends footer -->
-</td>
-</tr>
-</table>
+                    <a class="swccLink" target='_blank' href="Calendar.pdf">Schedule (Upcoming Events)</a> <img class="external" src="images/external-link.png" alt=""/><br/>
+                    <a target='_blank' href="http://swccchess.blogspot.com/">SWCC Blog</a> <img class="external" src="images/external-link.png" alt=""/><br/>
+
+                    <h4>Links</h4>
+                    <a target='_blank' href="http://www.wischess.org/">Wisconsin Chess Association</a> <img class="external" src="images/external-link.png" alt=""/><br/>
+                    <a target='_blank' href="http://www.waukeshachessclub.blogspot.com/">Waukesha Chess Club Blog</a>  <img class="external" src="images/external-link.png" alt=""/><br/>
+                    <a target='_blank' href="http://www.goddesschess.com/">Goddess Chess</a> <img class="external" src="images/external-link.png" alt=""/><br/>
+                    <a target='_blank' href="http://www.uschess.org/">USCF Home Page</a> <img class="external" src="images/external-link.png" alt=""/><br/>
+                    <a target='_blank' href="http://www.uschess.org/datapage/top-players2.php?state=WI&amp;limit=&amp;maxcnt=200&amp;players=M&amp;rtgsys=R&amp;current=C">Wisconsin Top 100 Players</a> <img class="external" src="images/external-link.png" alt=""/><br/>
+                    <a target='_blank' href="http://www.uschess.org/tlas/upcoming.php?STATE=WI">State Tournament List (USCF)</a> <img class="external" src="images/external-link.png" alt=""/><br/>
+
+                    <h4>The Players</h4>
+                    <a target='_blank' href="http://www.uschess.org/datapage/top-affil-players.php?affil=A6011047">Top Players</a> <img class="external" src="images/external-link.png" alt=""/><br/>
+                    <a href="club_champions.html">Club Champions</a><br/>
+                    <a href="other_notable_personalities.html" >Other Notable Personalties</a><br/>
+
+                    <h4>Club History</h4>
+                    <a href="history_part1_content.html" >The Early Years</a><span class='author'>&#160;&#160;(by Fred Zielstra)</span><br/>
+                    <a href="history_part2_content.html" >More Recently</a><span class='author'>&#160;&#160;(by Bob Fons)</span><br/>
+
+                    <h4>Games</h4>
+                    <a href="Database/games.htm" >Club Games</a><br/>
+                    <br/><br/>
+                </div> <!-- ends menu -->
+            </td>
+
+            <td class='colRight'>
+                <!-- <br/> -->
+                <div id='divContent'>
+                    <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+                        WELCOME CONTENT
+                    + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+                    <div id='divWelcome'>
+                        <p class="sectionHeading" style="width: 600px;">Welcome to the Southwest Chess Club!</p>
+                        <table>
+                            <tr>
+                                <td class='welcomeLeft'>
+                                    The Southwest Chess Club meets every Thursday night at the <br/>
+                                    <span class='blue bold'>Hales Corners Village Hall</span>
+                                    <span class='bold'>/Police Station<br/>
+                                    5635 South New Berlin Road, Hales Corners, Wisconsin <br/>
+                                    in the downstairs Community Room.</span>
+                                    <span><br/>The club opens at 6 PM and Tournament Games begin at 7 PM.</span>
+                                    <br/><br/>
+                                    <span class='blue'>We have a </span>
+                                    <a target="_blank" href="http://swccchess.blogspot.com"><span class='blue underline'>Blog</span></a><span
+                                        class='blue'> that shows current club news, and you are invited to contribute information, games, and any items of interest. You can subscribe to the blog and receive email notification of new events or announcements!</span><br/><br/>
+
+                                    <a target="_blank" href="Calendar.pdf"><span class='red underline'>Schedule</span></a>
+                                    <span class='red'> of our ongoing and upcoming events.</span><br/><br/>
+
+                                    <span>The </span>
+                                    <a target="_blank" href="http://www.uschess.org/"><span class='purple underline'>US Chess Federation</span></a>
+                                    <span> provides results of our completed events online. The </span>
+                                    <a target="_blank" href="http://www.uschess.org/msa/AffDtlTnmtHst.php?A6011047">
+                                        <span class='purple underline'>crosstables</span></a>
+                                    <span> contain complete pre- and post- ratings of all participants.</span><br/><br/>
+
+                                    <span class='blue bold'>Scott A. Haubrich</span>
+                                    <span class='blue bold'> is the reigning 2019 Joe Crothers Memorial Southwest Chess Club Champion.</span><br/><br/>
+
+                                    <span class='green bold'>Our club sponsors </span>
+                                    <span class='green underline bold'>two weekend tournaments each year</span>
+                                    <br/>
+                                    <span class='green bold'> </span>
+                                    <span class='red bold'>April 4, 2020,</span>
+                                    <span class='lightGreen bold'> and </span>
+                                    <span class='red bold'>October 3, 2020</span>
+                                    <span class='lightGreen bold'> &#8212; mark your calendars!</span>
+                                </td>
+
+                                <td class='welcomeRight'>
+                                    <a target="_blank" href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=5635+South+New+Berlin+Road,+Hales+Corners,+Wisconsin&amp;ie=UTF8&amp;hq=&amp;hnear=5635+S+New+Berlin+Rd,+Hales+Corners,+Milwaukee,+Wisconsin+53130&amp;z=16">
+                                        <img id="swccMap" src="images/swcc-map.png"/></a>
+                                    <div class='mapInfo'>Click on the above image to open in Google Maps.</div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+                        ENDS WELCOME CONTENT
+                    + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+
+                    <!-- Underneath the welcome content are two sid-by-side sections: Schedule and Next HC Challenge -->
+                    <table class="main">
+                        <tr>
+                            <td class='colSchedule'>
+                                <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+                                    CLUB SCHEDULE CONTENT
+                                + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+                                <div id='divSchedule'>
+                                    <p class="sectionHeading" style="width: 250px;">Club Schedule</p>
+
+                                    <table class="main">
+                                        <tr>
+                                            <td class='colSoon'>
+                                                January 2 thru 30
+                                            </td>
+                                            <td class='colSoon'>
+                                                <b>Avengers (Rook) Endgame Swiss</b><br/>
+                                                5-round swiss, rated, G/100; d5
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class='colSoon'>
+                                                February 6
+                                            </td>
+                                            <td class='colSoon'>
+                                                <b>King Terminator Action Swiss</b><br/>
+                                                3-round swiss, rated, G/24; d5 or G/25; d5
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class='colSoon'>
+                                                February 13 thru <br/>
+                                                March 5
+                                            </td>
+                                            <td class='colSoon'>
+                                                <b>How to Train Your Dragon Swiss</b><br/>
+                                                4-round swiss, rated, G/100; d5
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class='colSoon'>
+                                                March 12
+                                            </td>
+                                            <td class='colSoon'>
+                                                <b>Lion King Action Swiss</b><br/>
+                                                3-round swiss, rated, G/24; d5 or G/25; d5
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class='colSoon'>
+                                                March 19 thru <br/>
+                                                April 9
+                                            </td>
+                                            <td class='colSoon'>
+                                                <b>Black Panther Bishop  Swiss</b><br/>
+                                                4-round swiss, rated, G/100; d5
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class='colSoon'>
+                                                April 16
+                                            </td>
+                                            <td class='colSoon'>
+                                                <b>The Kid Who Would Be King Action Swiss</b><br/>
+                                                3-round swiss, rated, G/24; d5 or G/25; d5
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div> <!-- ends club schedule -->
+                            </td>
+
+                            <td class='colChallenge'>
+                                <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+                                    NEXT HC CHALLENGE CONTENT
+                                + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+                                <div id='divChallenge'>
+                                    <p class="sectionHeading" style="width: 400px;">Next Hales Corners Challenge</p>
+
+                                                <span class='bold'>April 4, 2020</span><br/>
+                                                A <span class='bold'>Wisconsin Tour</span> event!<br/>
+                                                <span class='bold'>US Chess Grand Prix Points: </span>10<br/>
+                                                <span>4SS, G/60;d6. 2 Sections: Open &amp; Reserve (under 1600). </span>
+
+                                                <br/>
+                                                <b>EF</b>: $50 Open, $40 Reserve, both $10 more after October 3. <br/>
+                                                Comp EF for USCF 2200+.<br/>
+
+                                                <br/>
+                                                <span class='bold'>Online registration at </span><a target="_blank" href="https://onlineregistration.cc/WICA/HCChallengeOct2019">HC Fall Challenge</a>
+                                                <br/>
+
+                                                <br/>
+                                                <b>Registration</b>: 8:30-9:30 <br/>
+                                                <b>Rounds</b>: 10-1-3:30-6 <br/>
+                                                <br/>
+
+                                                <b>$$GTD</b>: <b>Open</b>: 1st-$325, 2nd-$175, A-$100, B &amp; below-$75; <br/>
+                                                <b>Reserve</b>: 1st $100, 2nd $75, D-$60, E &amp; below $50. <br/>
+                                                <br/>
+                                                <b>Crowne Plaza Milwaukee Airport</b><br/>
+                                                6401 S 13th Street<br/>
+                                                Milwaukee, WI 53221<br/>
+                                                414-764-5300<br/>
+
+                                                <br/>
+                                                <b>Questions to Chris Wainscott</b> (414-839-5232, after 5:30 pm) <br/>
+                                                or e-mail:
+                                                <a target="_blank" href="mailto:chris.wainscott13@outlook.com"><span class='underline'>chris.wainscott13@outlook.com</span></a><br/>
+
+                                                <br/>
+                                                <b>Entries To:</b> Robin J. Grochowski<br/>
+                                                3835 E. Morris Avenue<br/>
+                                                Cudahy, WI 53110<br/>
+                                                (414-861-2745)<br/>
+                                                e-mail: <a href="mailto:rgrochowski@wi.rr.com">
+                                                <span class='underline'>rgrochowski@wi.rr.com</span></a><br/>
+                                                Accelerated pairings may be used.
+                                </div> <!-- ends coming soon -->
+                            </td>
+                        </tr>
+                    </table>
+                </div> <!-- ends divContent -->
+            </td>
+        </tr>
+        <tr><td colspan=2>
+            <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+                FOOTER CONTENT
+            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+            <!-- ends footer -->
+        </td>
+        </tr>
+    </table>
 
 </div> <!-- ends main container -->
-<script>
-  $( document ).ready( loadPage ); 
-</script>
 </body>
 </html>
