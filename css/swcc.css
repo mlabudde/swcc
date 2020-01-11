@@ -1,3 +1,22 @@
+
+/* Temporary Style Definitions (location moved) */
+#divLocation {
+	border-style: solid;
+	border-color: red;
+	border-width: 2px;
+	padding: 5px;
+	margin: 5px 5px 25px 5px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.tempLocation {
+	color: darkred;
+	font-size: 16pt;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
 /* Style Definitions */
 table.main {
   width: 100%;
@@ -12,17 +31,22 @@ table.main {
 }
 
 #swccMap {
-/*	display: inline-block;*/
-/*	float: right;*/
-/*	margin-top: -193px;*/
-/*	margin-bottom: -150px;*/
-/*	border-style: dotted;
-	border-color: red;
-	border-size: 1px;*/
-/*	position: fixed;
-	left: 800px;
-	top: 35px;
-*/
+	/*	display: inline-block;*/
+	/*	float: right;*/
+	/*	margin-top: -193px;*/
+	/*	margin-bottom: -150px;*/
+	/*	border-style: dotted;
+        border-color: red;
+        border-size: 1px;*/
+	/*	position: fixed;
+        left: 800px;
+        top: 35px;
+    */
+	height: 153px;
+	width: 300px;
+}
+
+#swccTempMap {
 	height: 153px;
 	width: 300px;
 }
@@ -86,6 +110,8 @@ body {
 .welcomeLeft {
 	padding: 2px;
 	width: 100%;
+	text-align: left;
+	vertical-align: top;
 }
 
 .welcomeRight {
