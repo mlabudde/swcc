@@ -41,6 +41,11 @@ body {
 	color: black;
 }
 
+td {
+	text-align: left;
+	vertical-align: top;
+}
+
 #main-container {
 	min-width: 1024px;
 }
@@ -73,6 +78,8 @@ body {
 	border-width: 1px;
 	padding: 5px;
 	margin: 5px 5px 25px 5px;
+	min-width: 764px;
+	/*width: 100%;*/
 }
 
 #divComingSoon {
@@ -145,16 +152,16 @@ body {
 	text-align: left;
 	vertical-align: top;
 	padding: 5px;
-	margin: 5px;
-	min-width: 300px;
+	margin: 5px 5px 5px 0px;
+	min-width: 400px;
 }
 
 .colChallenge {
 	text-align: left;
 	vertical-align: top;
 	padding: 5px;
-	margin: 5px;
-	min-width: 700px;
+	margin: 5px 0px 5px 5px;
+	min-width: 650px;
 }
 
 .sectionHeading {
@@ -179,6 +186,14 @@ body {
 h4 {
   margin-top: 10px;
   margin-bottom: 5px;
+}
+
+.pageTitle {
+	font-size: 18pt;
+	color: blue;
+	font-weight: bold;
+	background-color: #CCFFCC;
+	text-align: center;
 }
 
 #games {
