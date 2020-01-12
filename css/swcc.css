@@ -43,17 +43,11 @@ table.main {
 }
 
 #swccMap {
-/*	display: inline-block;*/
-/*	float: right;*/
-/*	margin-top: -193px;*/
-/*	margin-bottom: -150px;*/
-/*	border-style: dotted;
-	border-color: red;
-	border-size: 1px;*/
-/*	position: fixed;
-	left: 800px;
-	top: 35px;
-*/
+	height: 153px;
+	width: 300px;
+}
+
+#swccTempMap {
 	height: 153px;
 	width: 300px;
 }
