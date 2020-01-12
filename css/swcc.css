@@ -17,6 +17,19 @@
 	margin-bottom: 10px;
 }
 
+
+.tempHeading {
+	font-size: 18pt;
+	color: darkred;
+	font-weight: bold;
+	background-color: #FFCCFF;
+	text-align: center;
+	margin-top: -25px;
+	margin-bottom: 2px;
+	margin-left: 12px;
+}
+
+
 /* Style Definitions */
 table.main {
   width: 100%;
