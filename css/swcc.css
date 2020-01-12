@@ -2,7 +2,7 @@
 /* Temporary Style Definitions (location moved) */
 #divLocation {
 	border-style: solid;
-	border-color: red;
+	border-color: darkred;
 	border-width: 2px;
 	padding: 5px;
 	margin: 5px 5px 25px 5px;
@@ -11,7 +11,7 @@
 }
 
 .tempLocation {
-	color: darkred;
+	color: red;
 	font-size: 16pt;
 	margin-top: 5px;
 	margin-bottom: 10px;
@@ -20,7 +20,7 @@
 
 .tempHeading {
 	font-size: 18pt;
-	color: darkred;
+	color: red;
 	font-weight: bold;
 	background-color: #FFCCFF;
 	text-align: center;
