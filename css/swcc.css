@@ -148,6 +148,20 @@ td {
 	width: 50%;
 }
 
+.colSoonl {
+	text-align: left;
+	vertical-align: top;
+	padding: 5px;
+	width: 30%;
+}
+
+.colSoonr {
+	text-align: left;
+	vertical-align: top;
+	padding: 5px;
+	width: 70%;
+}
+
 .colSchedule {
 	text-align: left;
 	vertical-align: top;
