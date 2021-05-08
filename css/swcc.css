@@ -1,9 +1,9 @@
 
 /* Temporary Style Definitions (location moved) */
 #divCovid {
-	border-style: double;
-	border-color: darkred;
-	border-width: 2px;
+	border-style: solid;
+	border-color: navy;
+	border-width: 1px;
 	padding: 5px;
 	margin: 5px 5px 25px 5px;
 	text-align: left;
@@ -30,9 +30,9 @@
 
 .tempHeading {
 	font-size: 18pt;
-	color: red;
+	color: navy;
 	font-weight: bold;
-	background-color: #FFCCFF;
+	background-color: #DDDDDD;
 	text-align: center;
 	margin-top: -25px;
 	margin-bottom: 2px;
@@ -109,7 +109,7 @@ td {
 
 #divWelcome {
 	border-style: solid;
-	border-color: blue;
+	border-color: navy;
 	border-width: 1px;
 	padding: 5px;
 	margin: 5px 5px 25px 5px;
@@ -127,7 +127,7 @@ td {
 
 #divSchedule {
 	border-style: solid;
-	border-color: green;
+	border-color: navy;
 	border-width: 1px;
 	padding: 5px;
 	margin: 5px;
@@ -215,12 +215,10 @@ td {
 
 .sectionHeading {
 	font-size: 18pt;
-	color: blue;
+	color: navy;
 	font-weight: bold;
-	background-color: #CCFFCC;
-	/*background-color: #FFCCFF;*/
+	background-color: #DDDDDD;
 	text-align: center;
-	/*width: 500px;*/
 	margin-top: -25px;
 	margin-bottom: 2px;
 	margin-left: 12px;
