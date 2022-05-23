@@ -274,13 +274,17 @@ h4 {
 .lightGreen {
 	color: #00B050;
 }
-
+.navy {
+	color: navy;
+}
 .red {
 	color: red;
 }
-
 .purple {
 	color: #6633CC;
+}
+.violet {
+	color: violet;
 }
 
 .italics {
