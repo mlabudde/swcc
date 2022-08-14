@@ -29,7 +29,7 @@
 
 /* Style Definitions */
 table.main {
-  width: 100%;
+/*  width: 100%;*/
 }
 
 #swccLogo {
@@ -70,7 +70,7 @@ td {
 }
 
 #main-container {
-	min-width: 960px;
+	min-width: 760px;
 }
 
 /* the first of the three main DIVs */
@@ -101,7 +101,7 @@ td {
 	border-width: 1px;
 	padding: 5px;
 	margin: 5px 5px 25px 5px;
-	min-width: 700px;
+	min-width: 500px;
 	/*width: 100%;*/
 }
 
@@ -139,13 +139,13 @@ td {
 	text-align: right;
 	vertical-align: top;
 	padding: 2px;
-	width: 100px;
+/*	width: 100px;*/
 }
 
 /* styles the info text below the map image */
 .mapInfo {
 	font-size: 9pt;
-	display: inline-block;
+/*	display: inline-block;*/
 	margin-top: 1px;
 	margin-right: 13px;
 }
