@@ -175,14 +175,14 @@ td {
 	text-align: left;
 	vertical-align: top;
 	padding: 5px;
-	width: 18%;
+	width: 20%;
 }
 
 .colSoonr {
 	text-align: left;
 	vertical-align: top;
 	padding: 5px;
-	width: 82%;
+	width: 80%;
 }
 
 .colSchedule {
@@ -228,6 +228,19 @@ td {
 .content {
 	padding: 0 5px 5px 5px;
 	margin: 0 5px 5px 5px;
+}
+
+.colTimeControl {
+	font-size: 11pt;
+/*	color: indigo;*/
+	color: darkred;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	/*width: 500px;*/
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 0px;
 }
 
 /* style used on all links */
