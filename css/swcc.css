@@ -70,7 +70,9 @@ td {
 }
 
 #main-container {
-	min-width: 760px;
+  z-index: 3;
+  position: absolute;
+  min-width: 768px;
 }
 
 /* the first of the three main DIVs */
@@ -322,3 +324,20 @@ h4 {
 	border-width: 1px;
 }
 */
+#div1 {
+  z-index: 1;
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  border: 1px solid navy;
+  display: none;
+}
+#div2 {
+  z-index: 3;
+  position: absolute;
+  width: 1280px;
+  height: 960px;
+  border: 1px solid black;
+  display: none;
+}
+
