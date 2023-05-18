@@ -1,15 +1,4 @@
-
-/* Temporary Style Definitions (location moved) */
-#divCovid {
-	border-style: solid;
-	border-color: navy;
-	border-width: 1px;
-	padding: 5px;
-	margin: 5px 5px 25px 5px;
-	text-align: left;
-	vertical-align: top;
-}
-
+/* CSS used for the Southwest Chess Club's website */
 #divLocation {
 	border-style: solid;
 	border-color: darkred;
@@ -27,7 +16,6 @@
 	margin-bottom: 10px;
 }
 
-/* Style Definitions */
 table.main {
 /*  width: 100%;*/
 }
@@ -62,6 +50,7 @@ body {
 	font-family: "Times New Roman";
 	font-size: 11pt;
 	color: black;
+	line-height: 133%;
 }
 
 td {
@@ -191,7 +180,7 @@ td {
 	text-align: left;
 	vertical-align: top;
 	padding: 5px;
-	margin: 5px 5px 5px 0px;
+	margin: 5px 5px 5px 0;
 	min-width: 475px;
 }
 
@@ -199,7 +188,7 @@ td {
 	text-align: left;
 	vertical-align: top;
 	padding: 5px;
-	margin: 5px 0px 5px 5px;
+	margin: 5px 0 5px 5px;
 	min-width: 650px;
 }
 
@@ -209,10 +198,7 @@ td {
 	font-weight: bold;
 	background-color: #DDDDDD;
 	text-align: center;
-	margin-top: -22px;
-	margin-bottom: 5px;
-	margin-left: 12px;
-	margin-right: 12px;
+	margin: -22px 12px 5px 12px;
 }
 
 .sectionTitle {
@@ -222,9 +208,7 @@ td {
 	background-color: #FFCCFF;
 	text-align: center;
 	/*width: 500px;*/
-	margin-top: 10px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 10px 10px 0 0;
 }
 
 .content {
@@ -240,9 +224,7 @@ td {
 	font-weight: bold;
 	text-align: center;
 	/*width: 500px;*/
-	margin-top: 10px;
-	margin-bottom: 15px;
-	margin-left: 0px;
+	margin: 10px 10px 15px 0;
 }
 
 /* style used on all links */
@@ -340,4 +322,13 @@ h4 {
   border: 1px solid black;
   display: none;
 }
-
+/* Temporary Style Definitions (location moved) */
+#divCovid {
+	border-style: solid;
+	border-color: navy;
+	border-width: 1px;
+	padding: 5px;
+	margin: 5px 5px 25px 5px;
+	text-align: left;
+	vertical-align: top;
+}
