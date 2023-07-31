@@ -240,11 +240,13 @@ h4 {
 }
 
 .pageTitle {
-	font-size: 18pt;
-	color: blue;
-	font-weight: bold;
-	background-color: #CCFFCC;
-	text-align: center;
+  background-color: #DDDDDD;
+  color: blue;
+  font-size: 18pt;
+  font-weight: bold;
+  margin: 0 0 7px 0;
+  padding: 7px;
+  text-align: center;
 }
 
 #games {
