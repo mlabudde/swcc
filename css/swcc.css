@@ -120,6 +120,19 @@ td {
 	margin: 5px;
 }
 
+.hccSubtitle {
+	font-size: 13pt;
+	font-weight: bold;
+	margin-bottom: 11px;
+	margin-top: 11px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.margin6 {
+	margin-left: 6px;
+}
+
 /* these two styles are used for positioning within divWelcome */
 .welcomeLeft {
 	padding: 2px;
