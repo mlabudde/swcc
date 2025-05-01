@@ -133,6 +133,13 @@ td {
 	margin-left: 6px;
 }
 
+.swccParaB {
+	padding-bottom: 1px;
+}
+.swccPadR {
+	padding-right: 15px;
+}
+
 /* these two styles are used for positioning within divWelcome */
 .welcomeLeft {
 	padding: 2px;
