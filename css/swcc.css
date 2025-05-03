@@ -2,14 +2,14 @@
 body {
 	color: black;
 	font-family: "Arial", sans-serif;
-	font-size: 13pt;
+	font-size: 11pt;
 	line-height: 133%;
 	width: 100%;
 }
 #main-container {
     min-width: 640px;
     position: absolute;
-    /*width: 100%;*/
+    width: 100%;
     /*z-index: 3;*/
 }
 /*
