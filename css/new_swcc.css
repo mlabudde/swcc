@@ -25,11 +25,12 @@ body {
 	/*border-color: red;*/
 	/*border-style: solid;*/
 	/*border-width: 1px;*/
-	max-width: 260px;
-	min-width: 260px;
+	margin: 0;
+	max-width: 250px;
+	min-width: 250px;
 	text-align: left;
 	vertical-align: top;
-	padding: 2px;
+	padding: 1px;
 }
 #tdContentRight {
 	/*border-color: red;*/
@@ -37,8 +38,9 @@ body {
 	/*border-width: 1px;*/
 	text-align: left;
 	vertical-align: top;
-	padding: 2px;
-	min-width: 760px;
+	margin: 0;
+	min-width: 770px;
+	padding: 1px;
 	width: 100%;
 }
 #tdFooter {
@@ -85,8 +87,8 @@ table.main {
 	display: inline-block;
 	margin-top: 5px;
 	margin-bottom: 1px;
-	height: 331px;
-	width: 258px;
+	height: 300px;
+	width: 240px;
 }
 
 #swccMap {
@@ -115,17 +117,19 @@ td {
 #divMenu {
 	margin-top: -22px;
 	padding: 2px;
-	font-size: 11pt;
+}
+#divMenuContent {
+	line-height: 138%;
 }
 
 /* the second of the three main DIVs */
 #divContent {
-	margin: 5px 5px 5px 5px;
+	margin: 2px;
 	min-width: 200px;
-	padding: 5px;
-	/*width: 100%;*/
+	padding: 2px;
 }
 #divContentRight {
+	margin: 19px 0 0 0;
 	width: 100%;
 }
 
@@ -142,34 +146,33 @@ td {
 	border-style: solid;
 	border-color: navy;
 	border-width: 1px;
-	padding: 5px;
-	margin: 5px 5px 25px 5px;
+	padding: 1px;
+	margin: 0;
 	min-width: 500px;
-	/*width: 100%;*/
 }
 
 #divComingSoon {
 	border-style: solid;
 	border-color: green;
 	border-width: 1px;
-	padding: 5px;
-	margin: 5px 5px 25px 5px;
+	margin: 0;
+	padding: 1px;
 }
 
 #divSchedule {
 	border-style: solid;
 	border-color: navy;
 	border-width: 1px;
-	padding: 5px;
-	margin: 5px;
+	margin: 30px 5px 10px 0px;
+	padding: 1px;
 }
 
 #divChallenge {
 	border-style: solid;
 	border-color: green;
 	border-width: 1px;
-	padding: 5px;
-	margin: 5px;
+	margin: 30px 0px 10px 5px;
+	padding: 1px;
 }
 
 .hccSubtitle {
@@ -277,19 +280,19 @@ td {
 }
 
 .colSchedule {
+	margin: 0;
+	min-width: 675px;
+	padding: 1px;
 	text-align: left;
 	vertical-align: top;
-	padding: 5px;
-	margin: 5px 5px 5px 0;
-	min-width: 675px;
 }
 
 .colChallenge {
+	margin: 0;
+	min-width: 450px;
+	padding: 1px;
 	text-align: left;
 	vertical-align: top;
-	padding: 5px;
-	margin: 5px 0 5px 5px;
-	min-width: 450px;
 }
 
 .sectionHeading {
