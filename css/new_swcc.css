@@ -7,9 +7,9 @@ body {
 	width: 100%;
 }
 #main-container {
-    min-width: 640px;
+    min-width: 1024px;
     position: absolute;
-    /*width: 100%;*/
+    width: 100%;
     /*z-index: 3;*/
 }
 #swccLayout {
@@ -48,7 +48,7 @@ body {
 	text-align: center;
 	vertical-align: bottom;
 	padding: 2px;
-	min-width: 1020px;
+	min-width: 1024px;
 	width: 100%;
 }
 
@@ -444,4 +444,11 @@ h4 {
 	margin: 5px 5px 25px 5px;
 	text-align: left;
 	vertical-align: top;
+}
+
+#historyTOC tr {
+	line-height: 2px;
+}
+#historyTOC td {
+	padding-left: 12px;
 }
