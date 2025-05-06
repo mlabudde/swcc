@@ -2,70 +2,44 @@
 <html lang="en">
 <head>
     <meta http-equiv=Content-Type content="text/html" charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/swcc.css">
-    <title>Southwest Chess Club Home Page</title>
+    <link rel="stylesheet" type="text/css" href="css/new_swcc.css?t=20250505">
+    <script type='text/javascript' language='javascript' src='js/jquery-3.4.1.min.js'>
+        <!-- yes, this comment is here on purpose -->
+    </script>
+    <script type='text/javascript' language='javascript' src='js/swcc.js'><!-- comment required --></script>
+    <title>Southwest Chess Club -- Home Page</title>
 </head>
 
 <body id='body-container' link="#0066FF" vlink="#6633CC">
 <div id='main-container'>
-    <br/><!-- this is here because the section header has a negative margin -->
-    <table class="main">
+    <script>
+        const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        $(function () {
+            $("#menu").load("menu.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <table id="swccLayout">
+        <tr><td id="tdHeader" colspan="2"></td></tr>
         <tr>
-            <td class='colLeft'>
-                <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
-                    MENU/LINKS CONTENT (on the left)
-                + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
-                <img id="swccLogo" src="images/swcc-logo.jpg" onclick="javascript:window.location='index.html';">
-                <div id='divMenu'>
-                    <!-- leave comment here -->
-                    <h4>The Club</h4>
-                    <a href="index.html">Home</a><br/>
-                    <a href="club_details.html">Club Details</a><br/>
-                    <a class="swccLink" target='_blank' href="http://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=5635+South+New+Berlin+Road,+Hales+Corners,+Wisconsin&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=5635+S+New+Berlin+Rd,+Hales+Corners,+Milwaukee,+Wisconsin+53130&amp;amp;z=16">Location (map)</a> <img class="external" src="images/external-link.png" alt=""/><br/>
-                    <a class="swccLink" target='_blank' href="downloads/Calendar.pdf">Schedule (upcoming events)</a> <img class="external" src="images/external-link.png" alt=""/><br/>
-                    <a target='_blank' href="https://www.uschess.org/msa/AffDtlTnmtHst.php?A6011047/">Results (past tournaments)</a> <img class="external" src="images/external-link.png" alt=""/><br/>
-                    <a target='_blank' href="http://swccchess.blogspot.com/">SWCC Blog</a> <img class="external" src="images/external-link.png" alt=""/><br/>
-
-                    <h4>Links</h4>
-                    <a target='_blank' href="http://www.wischess.org/">Wisconsin Chess Association</a> <img class="external" src="images/external-link.png" alt=""/><br/>
-                    <a target='_blank' href="http://www.waukeshachessclub.com/">Waukesha Chess Club</a>  <img class="external" src="images/external-link.png" alt=""/><br/>
-                    <a target='_blank' href="http://www.waukeshachessclub.blogspot.com/">Waukesha Chess Club Blog</a>  <img class="external" src="images/external-link.png" alt=""/><br/>
-                    <a target='_blank' href="http://www.goddesschess.com/">Goddess Chess</a> <img class="external" src="images/external-link.png" alt=""/><br/>
-                    <a target='_blank' href="http://www.uschess.org/">USCF Home Page</a> <img class="external" src="images/external-link.png" alt=""/><br/>
-                    <a target='_blank' href="http://www.uschess.org/datapage/top-players2.php?state=WI&amp;limit=&amp;maxcnt=200&amp;players=M&amp;rtgsys=R&amp;current=C">Wisconsin Top 100 Players</a> <img class="external" src="images/external-link.png" alt=""/><br/>
-                    <a target='_blank' href="http://www.uschess.org/tlas/upcoming.php?STATE=WI">State Tournament List (USCF)</a> <img class="external" src="images/external-link.png" alt=""/><br/>
-
-                    <h4>The Players</h4>
-                    <a target='_blank' href="http://www.uschess.org/datapage/top-affil-players.php?affil=A6011047">Top Players</a> <img class="external" src="images/external-link.png" alt=""/><br/>
-                    <a href="club_champions.html">Club Champions</a><br/>
-                    <a href="other_notable_personalities.html" >Other Notable Personalties</a><br/>
-
-                    <h4>Club History</h4>
-                    <a href="history_part1_content.html" >The Early Years</a><span class='author'>&#160;&#160;(by Fred Zielstra)</span><br/>
-                    <a href="history_part2_content.html" >More Recently</a><span class='author'>&#160;&#160;(by Bob Fons)</span><br/>
-
-                    <h4>Games</h4>
-                    <a target='_blank' href="Database/games.htm" >Club Games</a><br/>
-                    <br/><br/>
-                </div> <!-- ends menu -->
+            <td id="tdContentLeft">
+                <div>
+                    <img id="swccLogo" src="images/swcc-logo.jpg" onclick="javascript:window.location='index.html';">
+                    <div id='menu'></div>
+                </div>
             </td>
-
-            <td class='colRight'>
-                <!-- <br/> -->
-                <div id='divContent'>
-                    <!-- leave comment here -->
-                </div> <!-- ends divContent -->
+            <td id="tdContentRight">
+                <div id="divContent">
+                <!-- yes, this comment is here on purpose -->
+                </div>
             </td>
         </tr>
-        <tr><td colspan=2>
-            <!-- + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
-                FOOTER CONTENT
-            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
-            <!-- ends footer -->
-        </td>
+        <tr>
+            <td id="tdFooter" colspan="2">
+                <div id='footer'></div>
+            </td>
         </tr>
     </table>
-
 </div> <!-- ends main container -->
 </body>
 </html>

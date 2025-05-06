@@ -82,6 +82,15 @@ td {
 table.main {
   width: 100%;
 }
+table.borders {
+	border: 1.5px solid black;
+	border-collapse: collapse;
+	width: 96%;
+}
+table.borders td, table.borders th {
+	border: 1.5px solid black;
+	line-height: 300%;
+}
 
 #swccLogo {
 	display: inline-block;
@@ -192,12 +201,22 @@ td {
 	text-align: center;
 	vertical-align: bottom;
 }
-
+.swccGrayBG {
+		background-color: lightgrey;
+}
 .swccParaB {
 	padding-bottom: 1px;
 }
 .swccPadR {
 	padding-right: 15px;
+}
+.swccCellHdr {
+	font-family:"Arial",sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+	line-height: 400%;
+	text-align: center;
+	vertical-align: center;
 }
 
 /* these two styles are used for positioning within divWelcome */
@@ -359,8 +378,8 @@ h4 {
 }
 
 #games {
-	height: 700px;
-	width: 800px;
+	height: 1000px;
+	width: 98%;
 }
 
 #clubcam {
