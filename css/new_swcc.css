@@ -198,8 +198,9 @@ td {
 }
 
 .swccFooter {
+	font-size: 10pt;
 	text-align: center;
-	vertical-align: bottom;
+	vertical-align: top;
 }
 .swccGrayBG {
 		background-color: lightgrey;
