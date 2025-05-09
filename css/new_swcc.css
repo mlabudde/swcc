@@ -439,36 +439,6 @@ h4 {
 	margin-left: 18px;
 }
 
-/*
-#div1 {
-  z-index: 1;
-  position: absolute;
-  width: 1024px;
-  height: 768px;
-  border: 1px solid navy;
-  display: none;
-}
-#div2 {
-  z-index: 3;
-  position: absolute;
-  width: 1280px;
-  height: 960px;
-  border: 1px solid black;
-  display: none;
-}
-*/
-
-/* Temporary Style Definitions (location moved) */
-#divCovid {
-	border-style: solid;
-	border-color: navy;
-	border-width: 1px;
-	padding: 5px;
-	margin: 5px 5px 25px 5px;
-	text-align: left;
-	vertical-align: top;
-}
-
 #historyTOC tr {
 	line-height: 2px;
 }
