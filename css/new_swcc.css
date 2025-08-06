@@ -423,6 +423,19 @@ h4 {
 	color: violet;
 }
 
+.fuchsia {
+	color: fuchsia;
+}
+.coral {
+	color: coral;
+}
+.deeppink {
+	color: deeppink;
+}
+.mediumorchid {
+	color: mediumorchid;
+}
+
 .italics {
 	font-style: italic;
 }
